@@ -1,0 +1,30 @@
+2008-37:Prefix expression evaluation
+Time Limit: 30 sec
+Description
+Evaluate a given prefix arithmetic expression that consists of postive integer constants and binary operators +, -, *, /, and %. The meanings of the operators are standard. In particular, / and % are integer division for quotient and remainder, respectively. In case the expression is an illegal prefix expression, report it as "illegal".
+
+You may assume that the expression contains only digits, spaces, and the five operators mentioned above.
+
+Input
+The input consists of multiple datasets, followed by a line which contains only a single ‘.’ (period). Each dataset represents a test data. Each dataset contains a prefix expression. The size of each line of an expression will be at most 1024. Each symbol or number is separated by at least one space.
+
+Output
+For each case, the output should indicate the calculation result of the input prefix expression. If the input expression is illegal, the output is the string “illegal”.
+
+Sample Input
+- * + 23 % 45 10 6 / 77 12
++ * 234 56
+.
+
+Sample Output
+162
+illegal
+
+
+Hint
+- * + 23 % 45 10 6 / 77 12
+
+is the prefix expression of the following statement
+
+{[23+(45%10)]*6}-(77/12)
+

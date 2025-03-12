@@ -1,0 +1,25 @@
+10416:Last Digit
+Time Limit: 3 sec
+Description
+Give you a integer number N (1<=n<=2*10100). Please compute
+
+            S=11+22+33+…+NN
+
+  Give the last digit of S to me.
+
+Input
+Input file consists of several Ns, each N a line. It is ended with N=0.
+
+Output
+  For each N give a line containing only one digit, which is the last digit of S.
+
+Sample Input
+1
+2
+3
+0
+
+Sample Output
+1
+5
+2
