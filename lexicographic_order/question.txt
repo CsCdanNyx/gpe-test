@@ -1,0 +1,85 @@
+23771:Lexicographic Order
+Time Limit: 1 sec
+
+Description
+The alphabet of a certain alien language consists of n distinct symbols. The symbols are like the letters of English alphabet but their ordering is different. 
+You want to know the original order of the symbols in that particular alphabet. 
+You have a string consists of all the letters of that alphabet and you know that this is the k-th (1 based) lexicographic permutation of these symbols. 
+You have to arrange these symbols in lexicographic order of that language.
+
+Input
+The first line of input will contain an integer T (T ≤ 5000) which denotes the number of test cases.
+
+Each of the following T lines contains a string s and an integer k. The string will be of length n (1 ≤ n ≤ 20) and will consist of lowercase letters only. 
+All the letters in the string will be distinct. The value of k will be in the range (1 ≤ k ≤ n!).
+
+Output
+For each line of input output the case number and a string which contains the letters in lexicographic order in that language.
+
+Sample Input
+3
+bdac 11
+abcd 5
+hjbrl 120
+
+Sample Output
+Case 1: abcd
+Case 2: acdb
+Case 3: lrbjh
+
+
+
+Hint
+The first input resembles the original order of English alphabet. Here are the lexicographic permutations
+
+abcd
+abdc
+acbd
+acdb
+adbc
+adcb
+bacd
+badc
+bcad
+bcda
+bdac
+bdca
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+
+cabd
+cadb
+cbad
+cbda
+cdab
+cdba
+dabc
+dacb
+dbac
+dbca
+dcab
+dcba
+
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
